@@ -7,18 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5DC2A529AA17DC003E59BD /* Voucher2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC2A429AA17DC003E59BD /* Voucher2View.swift */; };
+		1E5DC2A729AA1AF2003E59BD /* Voucher3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC2A629AA1AF2003E59BD /* Voucher3View.swift */; };
+		1E5DC2A929AA1BBD003E59BD /* Voucher4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC2A829AA1BBD003E59BD /* Voucher4View.swift */; };
+		1E5DC2AB29AA33DA003E59BD /* Purchase1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC2AA29AA33D9003E59BD /* Purchase1View.swift */; };
+		1E5DC2AD29AA4235003E59BD /* Purchase2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC2AC29AA4235003E59BD /* Purchase2View.swift */; };
+		1E5DC2AF29AA512B003E59BD /* Purchase3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC2AE29AA512B003E59BD /* Purchase3View.swift */; };
+		1E5DC2B229AA5392003E59BD /* CallsessionEndedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DC2B129AA5392003E59BD /* CallsessionEndedView.swift */; };
 		1E9F051629A7887E008E4B82 /* TernotisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F051529A7887E008E4B82 /* TernotisApp.swift */; };
 		1E9F051829A7887E008E4B82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F051729A7887E008E4B82 /* ContentView.swift */; };
 		1E9F051A29A78880008E4B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F051929A78880008E4B82 /* Assets.xcassets */; };
 		1E9F051D29A78880008E4B82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F051C29A78880008E4B82 /* Preview Assets.xcassets */; };
+		1E9F052429A7891C008E4B82 /* LandingPage1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F052329A7891C008E4B82 /* LandingPage1View.swift */; };
+		1E9F052629A79F57008E4B82 /* LandingPage3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F052529A79F57008E4B82 /* LandingPage3View.swift */; };
+		1E9F052C29A7BF52008E4B82 /* LibreFranklin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F052B29A7BF51008E4B82 /* LibreFranklin-Regular.ttf */; };
+		1E9F052E29A7BF70008E4B82 /* LibreFranklin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F052D29A7BF70008E4B82 /* LibreFranklin-SemiBold.ttf */; };
+		1E9F053029A7C158008E4B82 /* LandingPage2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F052F29A7C157008E4B82 /* LandingPage2View.swift */; };
+		1E9F053329A86C3C008E4B82 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F053229A86C3C008E4B82 /* AccountView.swift */; };
+		1E9F053529A8B1A2008E4B82 /* LibreFranklin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F053429A8B1A2008E4B82 /* LibreFranklin-Medium.ttf */; };
+		1E9F053729A8F17D008E4B82 /* AccountSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F053629A8F17D008E4B82 /* AccountSettingView.swift */; };
+		1E9F053929A8F5F1008E4B82 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F053829A8F5F1008E4B82 /* ProfileSettingView.swift */; };
+		1E9F053B29A90D36008E4B82 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F053A29A90D36008E4B82 /* ChangePasswordView.swift */; };
+		1E9F053D29A916D7008E4B82 /* ExitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F053C29A916D7008E4B82 /* ExitView.swift */; };
+		1E9F053F29A92028008E4B82 /* ArchievView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F053E29A92028008E4B82 /* ArchievView.swift */; };
+		1E9F054129A926A5008E4B82 /* Reward20View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F054029A926A5008E4B82 /* Reward20View.swift */; };
+		1E9F054329A92E04008E4B82 /* Reward50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F054229A92E04008E4B82 /* Reward50View.swift */; };
+		1E9F054529A92F18008E4B82 /* RewardSpecialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F054429A92F18008E4B82 /* RewardSpecialView.swift */; };
+		1E9F054729A93AAC008E4B82 /* Badges10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F054629A93AAC008E4B82 /* Badges10View.swift */; };
+		1E9F054929A93E3F008E4B82 /* Badges30View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F054829A93E3F008E4B82 /* Badges30View.swift */; };
+		1E9F054B29A93E81008E4B82 /* Badges60View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F054A29A93E81008E4B82 /* Badges60View.swift */; };
+		1E9F054D29A93FAD008E4B82 /* Purchase4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F054C29A93FAC008E4B82 /* Purchase4View.swift */; };
+		1E9F054F29A940F0008E4B82 /* LibreFranklin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F054E29A940F0008E4B82 /* LibreFranklin-Bold.ttf */; };
+		1EA53AA029A9CC2200CF0B79 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA53A9F29A9CC2200CF0B79 /* TransactionView.swift */; };
+		1EA53AAA29A9D1A000CF0B79 /* CreatorLiked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA53AA929A9D1A000CF0B79 /* CreatorLiked.swift */; };
+		1EA53AAC29A9D66000CF0B79 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA53AAB29A9D66000CF0B79 /* Notification.swift */; };
+		1EA53AAE29A9F62600CF0B79 /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA53AAD29A9F62600CF0B79 /* OpeningView.swift */; };
+		1EA53AB129A9FD7700CF0B79 /* VoucherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA53AB029A9FD7700CF0B79 /* VoucherView.swift */; };
+		1EA53AB329AA064B00CF0B79 /* LibreFranklin-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EA53AB229AA064B00CF0B79 /* LibreFranklin-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5DC2A429AA17DC003E59BD /* Voucher2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucher2View.swift; sourceTree = "<group>"; };
+		1E5DC2A629AA1AF2003E59BD /* Voucher3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucher3View.swift; sourceTree = "<group>"; };
+		1E5DC2A829AA1BBD003E59BD /* Voucher4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucher4View.swift; sourceTree = "<group>"; };
+		1E5DC2AA29AA33D9003E59BD /* Purchase1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase1View.swift; sourceTree = "<group>"; };
+		1E5DC2AC29AA4235003E59BD /* Purchase2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase2View.swift; sourceTree = "<group>"; };
+		1E5DC2AE29AA512B003E59BD /* Purchase3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase3View.swift; sourceTree = "<group>"; };
+		1E5DC2B129AA5392003E59BD /* CallsessionEndedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsessionEndedView.swift; sourceTree = "<group>"; };
 		1E9F051229A7887E008E4B82 /* Ternotis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ternotis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9F051529A7887E008E4B82 /* TernotisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernotisApp.swift; sourceTree = "<group>"; };
 		1E9F051729A7887E008E4B82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E9F051929A78880008E4B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E9F051C29A78880008E4B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E9F052329A7891C008E4B82 /* LandingPage1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage1View.swift; sourceTree = "<group>"; };
+		1E9F052529A79F57008E4B82 /* LandingPage3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage3View.swift; sourceTree = "<group>"; };
+		1E9F052B29A7BF51008E4B82 /* LibreFranklin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Regular.ttf"; sourceTree = "<group>"; };
+		1E9F052D29A7BF70008E4B82 /* LibreFranklin-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-SemiBold.ttf"; sourceTree = "<group>"; };
+		1E9F052F29A7C157008E4B82 /* LandingPage2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage2View.swift; sourceTree = "<group>"; };
+		1E9F053229A86C3C008E4B82 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		1E9F053429A8B1A2008E4B82 /* LibreFranklin-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Medium.ttf"; sourceTree = "<group>"; };
+		1E9F053629A8F17D008E4B82 /* AccountSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingView.swift; sourceTree = "<group>"; };
+		1E9F053829A8F5F1008E4B82 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
+		1E9F053A29A90D36008E4B82 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		1E9F053C29A916D7008E4B82 /* ExitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitView.swift; sourceTree = "<group>"; };
+		1E9F053E29A92028008E4B82 /* ArchievView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchievView.swift; sourceTree = "<group>"; };
+		1E9F054029A926A5008E4B82 /* Reward20View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward20View.swift; sourceTree = "<group>"; };
+		1E9F054229A92E04008E4B82 /* Reward50View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward50View.swift; sourceTree = "<group>"; };
+		1E9F054429A92F18008E4B82 /* RewardSpecialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSpecialView.swift; sourceTree = "<group>"; };
+		1E9F054629A93AAC008E4B82 /* Badges10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges10View.swift; sourceTree = "<group>"; };
+		1E9F054829A93E3F008E4B82 /* Badges30View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges30View.swift; sourceTree = "<group>"; };
+		1E9F054A29A93E81008E4B82 /* Badges60View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges60View.swift; sourceTree = "<group>"; };
+		1E9F054C29A93FAC008E4B82 /* Purchase4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase4View.swift; sourceTree = "<group>"; };
+		1E9F054E29A940F0008E4B82 /* LibreFranklin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Bold.ttf"; sourceTree = "<group>"; };
+		1EA53A9F29A9CC2200CF0B79 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		1EA53AA929A9D1A000CF0B79 /* CreatorLiked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorLiked.swift; sourceTree = "<group>"; };
+		1EA53AAB29A9D66000CF0B79 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		1EA53AAD29A9F62600CF0B79 /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		1EA53AB029A9FD7700CF0B79 /* VoucherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherView.swift; sourceTree = "<group>"; };
+		1EA53AB229AA064B00CF0B79 /* LibreFranklin-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5DC2B029AA536C003E59BD /* CallSession */ = {
+			isa = PBXGroup;
+			children = (
+				1E5DC2B129AA5392003E59BD /* CallsessionEndedView.swift */,
+			);
+			path = CallSession;
+			sourceTree = "<group>";
+		};
 		1E9F050929A7887E008E4B82 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +127,7 @@
 			children = (
 				1E9F051529A7887E008E4B82 /* TernotisApp.swift */,
 				1E9F051729A7887E008E4B82 /* ContentView.swift */,
+				1E9F052829A7B397008E4B82 /* Font */,
 				1E9F051929A78880008E4B82 /* Assets.xcassets */,
 				1E9F051B29A78880008E4B82 /* Preview Content */,
 			);
@@ -62,9 +137,113 @@
 		1E9F051B29A78880008E4B82 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1E9F053129A86C0E008E4B82 /* View */,
 				1E9F051C29A78880008E4B82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E9F052829A7B397008E4B82 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F053429A8B1A2008E4B82 /* LibreFranklin-Medium.ttf */,
+				1E9F052B29A7BF51008E4B82 /* LibreFranklin-Regular.ttf */,
+				1E9F052D29A7BF70008E4B82 /* LibreFranklin-SemiBold.ttf */,
+				1E9F054E29A940F0008E4B82 /* LibreFranklin-Bold.ttf */,
+				1EA53AB229AA064B00CF0B79 /* LibreFranklin-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1E9F053129A86C0E008E4B82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E5DC2B029AA536C003E59BD /* CallSession */,
+				1EA53AAF29A9FD5D00CF0B79 /* RewardsPage */,
+				1EA53AA829A9D0F400CF0B79 /* FavouriteCreator */,
+				1EA53AA729A9CF8800CF0B79 /* PurchaseSession */,
+				1EA53AA629A9CEEE00CF0B79 /* Badges */,
+				1EA53AA329A9CE7100CF0B79 /* RewardsNotification */,
+				1EA53AA229A9CDF000CF0B79 /* Account */,
+				1EA53AA129A9CDA600CF0B79 /* LandingPage */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EA53AA129A9CDA600CF0B79 /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				1EA53AAD29A9F62600CF0B79 /* OpeningView.swift */,
+				1E9F052329A7891C008E4B82 /* LandingPage1View.swift */,
+				1E9F052F29A7C157008E4B82 /* LandingPage2View.swift */,
+				1E9F052529A79F57008E4B82 /* LandingPage3View.swift */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		1EA53AA229A9CDF000CF0B79 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F053229A86C3C008E4B82 /* AccountView.swift */,
+				1E9F053629A8F17D008E4B82 /* AccountSettingView.swift */,
+				1E9F053829A8F5F1008E4B82 /* ProfileSettingView.swift */,
+				1E9F053A29A90D36008E4B82 /* ChangePasswordView.swift */,
+				1E9F053C29A916D7008E4B82 /* ExitView.swift */,
+				1E9F053E29A92028008E4B82 /* ArchievView.swift */,
+				1EA53A9F29A9CC2200CF0B79 /* TransactionView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		1EA53AA329A9CE7100CF0B79 /* RewardsNotification */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F054029A926A5008E4B82 /* Reward20View.swift */,
+				1E9F054229A92E04008E4B82 /* Reward50View.swift */,
+				1E9F054429A92F18008E4B82 /* RewardSpecialView.swift */,
+			);
+			path = RewardsNotification;
+			sourceTree = "<group>";
+		};
+		1EA53AA629A9CEEE00CF0B79 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F054629A93AAC008E4B82 /* Badges10View.swift */,
+				1E9F054829A93E3F008E4B82 /* Badges30View.swift */,
+				1E9F054A29A93E81008E4B82 /* Badges60View.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		1EA53AA729A9CF8800CF0B79 /* PurchaseSession */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F054C29A93FAC008E4B82 /* Purchase4View.swift */,
+				1E5DC2AA29AA33D9003E59BD /* Purchase1View.swift */,
+				1E5DC2AC29AA4235003E59BD /* Purchase2View.swift */,
+				1E5DC2AE29AA512B003E59BD /* Purchase3View.swift */,
+			);
+			path = PurchaseSession;
+			sourceTree = "<group>";
+		};
+		1EA53AA829A9D0F400CF0B79 /* FavouriteCreator */ = {
+			isa = PBXGroup;
+			children = (
+				1EA53AA929A9D1A000CF0B79 /* CreatorLiked.swift */,
+				1EA53AAB29A9D66000CF0B79 /* Notification.swift */,
+			);
+			path = FavouriteCreator;
+			sourceTree = "<group>";
+		};
+		1EA53AAF29A9FD5D00CF0B79 /* RewardsPage */ = {
+			isa = PBXGroup;
+			children = (
+				1EA53AB029A9FD7700CF0B79 /* VoucherView.swift */,
+				1E5DC2A429AA17DC003E59BD /* Voucher2View.swift */,
+				1E5DC2A629AA1AF2003E59BD /* Voucher3View.swift */,
+				1E5DC2A829AA1BBD003E59BD /* Voucher4View.swift */,
+			);
+			path = RewardsPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E9F051D29A78880008E4B82 /* Preview Assets.xcassets in Resources */,
+				1EA53AB329AA064B00CF0B79 /* LibreFranklin-Thin.ttf in Resources */,
+				1E9F052E29A7BF70008E4B82 /* LibreFranklin-SemiBold.ttf in Resources */,
 				1E9F051A29A78880008E4B82 /* Assets.xcassets in Resources */,
+				1E9F053529A8B1A2008E4B82 /* LibreFranklin-Medium.ttf in Resources */,
+				1E9F052C29A7BF52008E4B82 /* LibreFranklin-Regular.ttf in Resources */,
+				1E9F054F29A940F0008E4B82 /* LibreFranklin-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +321,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9F053329A86C3C008E4B82 /* AccountView.swift in Sources */,
+				1E5DC2A929AA1BBD003E59BD /* Voucher4View.swift in Sources */,
+				1E9F054929A93E3F008E4B82 /* Badges30View.swift in Sources */,
+				1E9F053029A7C158008E4B82 /* LandingPage2View.swift in Sources */,
+				1E5DC2B229AA5392003E59BD /* CallsessionEndedView.swift in Sources */,
 				1E9F051829A7887E008E4B82 /* ContentView.swift in Sources */,
+				1E9F054B29A93E81008E4B82 /* Badges60View.swift in Sources */,
+				1EA53AA029A9CC2200CF0B79 /* TransactionView.swift in Sources */,
+				1E9F053F29A92028008E4B82 /* ArchievView.swift in Sources */,
+				1E9F052629A79F57008E4B82 /* LandingPage3View.swift in Sources */,
+				1E9F054D29A93FAD008E4B82 /* Purchase4View.swift in Sources */,
+				1E9F053B29A90D36008E4B82 /* ChangePasswordView.swift in Sources */,
+				1E9F053729A8F17D008E4B82 /* AccountSettingView.swift in Sources */,
+				1E9F054529A92F18008E4B82 /* RewardSpecialView.swift in Sources */,
+				1EA53AB129A9FD7700CF0B79 /* VoucherView.swift in Sources */,
+				1E9F054729A93AAC008E4B82 /* Badges10View.swift in Sources */,
+				1EA53AAE29A9F62600CF0B79 /* OpeningView.swift in Sources */,
+				1E9F054129A926A5008E4B82 /* Reward20View.swift in Sources */,
+				1E9F054329A92E04008E4B82 /* Reward50View.swift in Sources */,
+				1E9F053929A8F5F1008E4B82 /* ProfileSettingView.swift in Sources */,
 				1E9F051629A7887E008E4B82 /* TernotisApp.swift in Sources */,
+				1EA53AAC29A9D66000CF0B79 /* Notification.swift in Sources */,
+				1E5DC2AB29AA33DA003E59BD /* Purchase1View.swift in Sources */,
+				1E9F053D29A916D7008E4B82 /* ExitView.swift in Sources */,
+				1EA53AAA29A9D1A000CF0B79 /* CreatorLiked.swift in Sources */,
+				1E5DC2A729AA1AF2003E59BD /* Voucher3View.swift in Sources */,
+				1E5DC2AF29AA512B003E59BD /* Purchase3View.swift in Sources */,
+				1E5DC2A529AA17DC003E59BD /* Voucher2View.swift in Sources */,
+				1E9F052429A7891C008E4B82 /* LandingPage1View.swift in Sources */,
+				1E5DC2AD29AA4235003E59BD /* Purchase2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +481,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Ternotis/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ternotis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +510,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Ternotis/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ternotis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
